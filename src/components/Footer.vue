@@ -3,6 +3,7 @@
 
 
       <section class="footer-secction secction-info">
+                    <Informacion />
 
       </section>
 
@@ -27,9 +28,12 @@
 </template>
 
 <script>
+    import Informacion from './Informacion.vue'
 
 export default {
-
+  components:{
+        Informacion
+    }
     }
 </script>
 

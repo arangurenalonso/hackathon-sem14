@@ -54,13 +54,12 @@ export default {
     flex-direction: column;
     justify-content: space-evenly;
     padding: 5%;
-         border: 2px solid red;
    
 }
 .datoEmpresa{
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: space-around;
     width: 100%;
     height: 15%;
 
@@ -77,7 +76,6 @@ export default {
     &-info{
         width: 60%;
         height: 100%;
-        border: 2px solid red;
         h2{
             font-size: 150%;
 
